@@ -116,6 +116,8 @@
             $AuthorizationParams.GetEnumerator() | sort name | foreach { $AuthorizationString += $_.Key + '="' + [System.Uri]::EscapeDataString($_.Value) + '", ' }
             $AuthorizationString = $AuthorizationString.TrimEnd(', ')
             Write-Verbose "Using authorization string '$AuthorizationString'"
+            
+            $AuthorizationString
 
         } catch {
             Write-Error $_.Exception.Message

@@ -41,13 +41,13 @@
         [Parameter(Mandatory, ParameterSetName = 'DM')] 
         [string]$Username, 
         [Parameter()] 
-        [string]$ApiKey = 'j5Fvx1EnCaHM8zUS14HFRmZ7e', 
+        [string]$ApiKey = 'Consumer Key (API Key)', 
         [Parameter()] 
-        [string]$ApiSecret = 'XUPYDP2qagFpLavREmDGLIqFauKZkY90SxuHNuC28pVyEdjIfM', 
+        [string]$ApiSecret = 'Consumer Secret (API Secret)', 
         [Parameter()] 
-        [string]$AccessToken = '703096147-Z3fSdcrwbW7n1FAoz7zO0AHxZVy9fbw6WbTH2jKz', 
+        [string]$AccessToken = 'Access Token', 
         [Parameter()] 
-        [string]$AccessTokenSecret = 'nu4kJmku3vVgoB2dEY6AiIPy3k5s7NZVcOOOyWCKHSUhD' 
+        [string]$AccessTokenSecret = 'Access Token Secret' 
     ) 
      
     begin { 

@@ -1,12 +1,12 @@
 # TwitterPosh
 Módulo de PowerShell para interactuar con Twitter
 
-##Funciones
+## Funciones
 
 * Send-Twitter
 * Send-TwitterDM
 
-##Install
+## Install
 
 Para instalar este módulo, simplemente se debe ejecutar desde una consola con PowerShell v3 (o más reciente) el siguiente comando:
 
